@@ -1,0 +1,161 @@
+body{
+    background-color: rgba(9, 134, 236, 0.575);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 10px;
+    
+
+}
+
+.friend-top{
+    width: 100%;
+    display: flex;
+    height: 45px;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(220, 220, 220, 0.349);
+    
+}
+
+.friend-top span{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(51, 50, 50);
+    margin-left: 15px;
+}
+
+.friend-top div{
+    margin-top: 4px;
+    color: rgb(54, 54, 54);
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.fa-search {
+    margin-left: 10px;
+}
+.fa-music {
+    margin: 0px 10px;
+}
+.project{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.253);
+    background-color: rgba(245, 245, 245, 0.171);
+    
+}
+
+.myproject,
+.teamproject{
+    margin: 30px 10px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.update{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.update span:first-child{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.update span:nth-child(2){
+    font-size: 14px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.fa-star{
+    font-size: 13px;
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+.proceeding-list-1,
+.proceeding-list-2,
+.proceeding-list-3,
+.proceeding-list-4{
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.proceeding-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.range1{
+    background-color: rgb(238, 236, 130);
+    width: 200px;
+    height: 10px;
+    margin-top: 3px;
+    position: absolute;
+    left: 20%;
+    animation: 3s slidein;
+
+}
+
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+
+  .range3
+
+  {
+      background-color: rgb(238, 236, 130);
+      width: 200px;
+      height: 10px;
+      margin-top: 3px;
+      position: absolute;
+      left: 20%;
+      animation: 3s slidein;
+  }
+
+.range2,
+.range4{
+    background-color: rgb(238, 236, 130);
+    width: 130px;
+    height: 10px;
+    margin-top: 3px;
+    position: absolute;
+    left: 20%;
+    animation: 3s slidein;
+
+}
+
+.proceeding-list-kind span:first-child{
+    font-size: 20px;
+    margin-left: 3px;
+    font-weight: bolder;
+}
+
+
+.proceeding-list-kind span:nth-child(2){
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.notice{
+   display: flex;
+   justify-content: center;
+}
+
+
+
+.notice span:nth-child(2){
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+
+

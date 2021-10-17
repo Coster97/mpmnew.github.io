@@ -1,0 +1,21 @@
+
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    animation: logo 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+
+}
+
+@keyframes logo {
+    from{
+        transform: rotateY(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+    
+}

@@ -1,0 +1,27 @@
+
+
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(9, 81, 163, 0.418);
+    padding: 10px 40px;
+    border-top: 0.5px solid rgba(64, 89, 145, 0.219);
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 3px;
+    position: relative;
+    
+   
+}
+
+a{
+    color: rgba(245, 245, 245, 0.979);
+    font-size: 20px;
+
+    
+}
+
