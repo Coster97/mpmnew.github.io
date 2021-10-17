@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(9, 134, 236, 0.575);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcome-header{
+    text-align: center;
+    position: absolute;
+    top: 26%;
+  
+}
+.welcome-header h1{
+    font-size: 35px;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+  
+}
+
+.welcome-header p{
+    font-size: 15px;
+    width: 300px;
+    color: rgba(255, 248, 220, 0.747);
+    margin: 20px;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 53%;
+    
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"]
+{
+    width: 300px;
+    height: 25px;
+    margin: 6px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 5px 5px #437a9e;
+}
+
+#login-form input[type="text"]::placeholder,
+#login-form input[type="password"]::placeholder{
+    padding: 7px;
+    font-size: 15px;
+}
+
+#login-form input[type="submit"]{
+    margin: 10px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 1px solid tan;
+}
+#login-form input[type="submit"]:hover{
+   background-color: rgba(143, 230, 109, 0.705);
+   color: white;
+}
+
+#login-form a{
+    color: rgba(0, 0, 0, 0.76);
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
